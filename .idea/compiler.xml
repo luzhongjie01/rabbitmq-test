@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="consumer-springboot" />
+        <module name="producer-springboot" />
+        <module name="rabbitmq" />
+        <module name="spring-rabbitmq-cusomer-advanced" />
+        <module name="spring-rabbitmq-customer" />
+        <module name="spring-rabbitmq-product" />
+        <module name="spring-rabbitmq-product-advanced" />
+        <module name="springboot-rabbitmq-customer" />
+        <module name="springboot-rabbitmq-product" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="consumer-springboot" target="1.8" />
+      <module name="producer-springboot" target="1.8" />
+      <module name="rabbitmq" target="1.5" />
+      <module name="spring-rabbitmq-cusomer-advanced" target="1.5" />
+      <module name="spring-rabbitmq-customer" target="1.5" />
+      <module name="spring-rabbitmq-product" target="1.5" />
+      <module name="spring-rabbitmq-product-advanced" target="1.5" />
+      <module name="springboot-rabbitmq-customer" target="1.8" />
+      <module name="springboot-rabbitmq-product" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="consumer-springboot" options="-parameters" />
+      <module name="producer-springboot" options="-parameters" />
+      <module name="springboot-rabbitmq-customer" options="-parameters" />
+      <module name="springboot-rabbitmq-product" options="-parameters" />
+    </option>
+  </component>
+</project>
