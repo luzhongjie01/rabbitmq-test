@@ -1,0 +1,7 @@
+spring:
+  rabbitmq:
+    host: 81.71.140.7 #主机ip
+    port: 5672 #端口
+    username: bq123
+    password: bq123
+    virtual-host: /baiqi

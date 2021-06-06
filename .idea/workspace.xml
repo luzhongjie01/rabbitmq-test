@@ -1,0 +1,1842 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="13c30de8-c7a1-461b-bb6c-e35aedfa3bc8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/alipay-trade-sdk-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/WebShopApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/advice/ResponseBodyAnalysis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/aspectj/lang/LogAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/aspectj/lang/MemberRightsAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/aspectj/lang/annotation/Excel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/aspectj/lang/annotation/Excels.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/aspectj/lang/annotation/Log.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/aspectj/lang/annotation/MemberRights.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/aspectj/lang/enums/BusinessStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/aspectj/lang/enums/BusinessType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/aspectj/lang/enums/ModuleType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/aspectj/lang/enums/OperatorType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/config/FastJson2JsonRedisSerializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/config/FilterConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/config/RedisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/config/ResourcesConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/config/ThreadPoolConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/config/WebShopConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/config/alipay/AliPayConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/config/client/HttpClientConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/config/invoice/InvoiceProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/config/kudi/KudiConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/config/mq/RabbitMqConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/config/mq/listener/BoxListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/config/mq/listener/MemberListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/config/mq/listener/OrderListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/config/mvc/CorsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/config/mybatis/MyMetaObjectHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/config/mybatis/MybatisPlusConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/config/oss/OssProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/config/sms/SmsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/config/swagger/SwaggerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/config/wechat/WXPayConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/config/wechat/WeChatConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/constant/BoxConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/constant/BoxuniConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/constant/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/constant/ConstantsUrl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/constant/CouponConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/constant/CustomerConstant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/constant/HttpStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/constant/InvoiceConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/constant/MessageConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/constant/OrderConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/constant/OrderRefundConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/constant/ProductConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/constant/RabbitMqConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/constant/RuleConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/constant/ScheduleConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/constant/SmsConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/constant/SysSettingConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/constant/TransactionConstant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/constant/UserConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/constant/WXPayConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/exception/BaseException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/exception/CustomException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/exception/CustomerNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/exception/UtilException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/exception/file/FileException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/exception/file/InvalidExtensionException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/exception/user/CaptchaException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/exception/user/CaptchaExpireException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/exception/user/UserException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/exception/user/UserPasswordNotMatchException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/filter/CustomRequestWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/filter/RepeatableFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/filter/RepeatedlyRequestWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/filter/XssFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/filter/XssHttpServletRequestWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/global/controller/BaseController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/global/domain/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/global/domain/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/global/domain/SearchEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/global/domain/TreeNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/global/enums/StatusEmum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/global/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/global/exception/RestTemplateResponseErrorHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/global/page/PageSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/interceptor/AbstractRepeatSubmitInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/interceptor/CheckBoxScopeInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/interceptor/RequestResponseLoggingInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/interceptor/annotation/CheckBoxScope.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/interceptor/annotation/RepeatSubmit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/interceptor/impl/SameUrlDataInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/invoice/InvoiceClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/manager/AsyncManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/manager/factory/AsyncFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/redis/RedisCache.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/runner/WebShopRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/schedule/BoxSchedule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/schedule/MemberSchedule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/schedule/MessageSchedule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/schedule/OrderSchedule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/security/filter/JwtAuthenticationTokenFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/security/handle/AuthenticationEntryPointImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/security/handle/LogoutSuccessHandlerImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/security/service/SysPermissionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/security/service/TokenService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/BeanUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/BigDecimalUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/CharsetKit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/Convert.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/ConvertBeanUtilsCallBack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/ConvertListVoUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/DateCalcTool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/DateUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/EnterpriseUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/IdUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/IpAddressUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/LogUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/MapUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/MemberUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/MessageTemplateUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/MessageUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/RandomUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/RedisUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/SecurityUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/ServletUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/SpringEnvironmentUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/SpringUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/StrFormatter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/StringUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/SysSettingUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/Threads.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/TouristUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/TreeUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/UUID.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/box/BoxScopeUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/box/BoxUploadUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/box/BoxUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/captcha/VerifyCodeUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/file/FileUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/html/EscapeUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/html/HTMLFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/http/HttpHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/http/HttpUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/http/RequestUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/i18n/LocalConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/i18n/LocaleMessageUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/i18n/SmartLocaleResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/kudi/Kudi100Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/kudi/api/QueryTrack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/kudi/api/Subscribe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/kudi/contant/ApiInfoConstant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/kudi/enums/CompanyEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/kudi/pojo/HttpResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/kudi/request/QueryTrackParam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/kudi/request/QueryTrackReq.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/kudi/request/SubscribeParam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/kudi/request/SubscribeParameters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/kudi/request/SubscribeReq.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/kudi/respone/QueryTrackData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/kudi/respone/QueryTrackPosition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/kudi/respone/QueryTrackResp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/kudi/respone/QueryTrackRouteInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/kudi/respone/SubscribePushData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/kudi/respone/SubscribePushParamResp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/kudi/respone/SubscribePushResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/kudi/respone/SubscribeResp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/kudi/util/HttpUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/kudi/util/SignUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/oss/BASE64DecodedMultipartFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/oss/MyOssUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/pay/WXPayClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/pay/WXPaySSL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/pay/WXPaySign.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/pay/WXPayUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/pay/WXPayXmlUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/poi/ExcelUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/reflect/ReflectUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/common/utils/sign/Base64.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/address/api/DistrictController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/address/mapper/DistrictMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/address/model/entity/District.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/address/model/vo/DistrictVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/address/service/IDistrictService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/address/service/impl/DistrictServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/api/MicroserviceController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/client/BaseClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/client/BoxuniOrderServiceClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/client/PackGateEditorClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/client/PackGateTemplateV1Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/client/PackGateTemplateV2Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/client/PackGateTypeClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/client/PriceCalculationClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/client/PrinectEditorClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/client/PrintabilityClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/model/form/PackGateUserForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/model/form/TemplateQueryForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/model/vo/BoxuniUrlVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/model/vo/ErrorResponseVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/model/vo/LoginUserVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/model/vo/MicroserviceConfigVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/model/vo/PageInfoVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/model/vo/SaveTemplateVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/model/vo/box/BoxColorsVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/model/vo/box/BoxDimensionsVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/model/vo/box/BoxMaterialVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/model/vo/box/BoxNestingFormatVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/model/vo/box/BoxSizeVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/model/vo/box/BoxWorkflow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/model/vo/order/BoxOrderFrom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/model/vo/order/BoxOrderItemVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/model/vo/order/BoxOrderVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/model/vo/order/OrderDocumentVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/model/vo/packgate/BoxuniTemplateVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/model/vo/packgate/D2EditorType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/model/vo/packgate/PackGateBodyVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/model/vo/packgate/PackGateEditorImplVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/model/vo/packgate/PackGateEditorTypeVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/model/vo/packgate/PackGateEditorUrlVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/model/vo/packgate/PackGateTemplateDetailsVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/model/vo/packgate/PackGateTemplateVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/model/vo/packgate/PackGateTypeVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/model/vo/packgate/PackGateUserRegisterVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/model/vo/packgate/TemplateFileVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/model/vo/packgate/TemplateVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/model/vo/printability/PreflightCommentsVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/model/vo/printability/PreflightDocumentsVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/model/vo/printability/PreflightStatusVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/model/vo/printability/PreflightsVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/model/vo/valuation/PrepressPriceVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/model/vo/valuation/PriceCalculationVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/center/model/vo/valuation/ProofPriceVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/common/api/CommonController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/common/api/EmailExpandController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/common/api/OssApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/common/api/SmsExpandController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/common/model/form/CheckVerificationCodeForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/common/model/form/EmailSendCodeForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/common/model/form/PhoneSendCodeForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/common/service/EmailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/common/service/IMailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/common/service/SmsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/common/service/impl/EmailServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/common/service/impl/MailServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/common/service/impl/SmsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/content/api/AdminBannerManageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/content/api/ProblemContentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/content/api/StaticContentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/content/api/StaticPictureController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/content/mapper/BannerManageMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/content/mapper/ProblemContentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/content/mapper/StaticContentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/content/mapper/StaticPictureMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/content/model/dto/BannerManageDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/content/model/dto/ProblemContentDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/content/model/dto/StaticContentDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/content/model/dto/StaticContentInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/content/model/dto/StaticPictureDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/content/model/entity/BannerManage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/content/model/entity/ProblemContent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/content/model/entity/StaticContent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/content/model/entity/StaticPicture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/content/model/entity/repository/ProblemContentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/content/model/entity/repository/ProblemInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/content/model/entity/repository/StaticContentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/content/model/vo/BeforeBannerVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/content/model/vo/FaqIndexNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/content/model/vo/TreeSelectVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/content/service/BannerManageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/content/service/IProblemContentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/content/service/IStaticContentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/content/service/IStaticPictureService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/content/service/impl/BannerManageServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/content/service/impl/ProblemContentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/content/service/impl/StaticContentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/content/service/impl/StaticPictureServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/content/web/BannerManageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/content/web/ContentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/content/web/FaqController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/coupon/api/CouponController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/coupon/mapper/CouponErrorRecordMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/coupon/mapper/CouponMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/coupon/mapper/CouponTemplateMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/coupon/mapper/RuleConditionMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/coupon/mapper/RuleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/coupon/model/dto/AddCouponDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/coupon/model/dto/AddRuleDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/coupon/model/dto/CouponQueryDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/coupon/model/dto/CouponTemplateQueryDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/coupon/model/dto/RuleQueryDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/coupon/model/dto/UpdateRuleDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/coupon/model/entity/Coupon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/coupon/model/entity/CouponErrorRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/coupon/model/entity/CouponTemplate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/coupon/model/entity/Rule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/coupon/model/entity/RuleCondition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/coupon/model/vo/CouponTemplateVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/coupon/model/vo/CouponVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/coupon/model/vo/ProductRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/coupon/model/vo/RealPayPrice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/coupon/model/vo/RealRuleDiscount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/coupon/model/vo/RuleDescription.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/coupon/model/vo/RuleVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/coupon/service/ICouponErrorRecordService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/coupon/service/ICouponService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/coupon/service/ICouponTemplateService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/coupon/service/IRuleConditionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/coupon/service/IRuleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/coupon/service/impl/CouponErrorRecordServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/coupon/service/impl/CouponServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/coupon/service/impl/CouponTemplateServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/coupon/service/impl/RuleConditionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/coupon/service/impl/RuleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/coupon/web/AdminCouponController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/coupon/web/AdminCouponTemplateController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/coupon/web/AdminRuleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/enterprise/api/EnterpriseController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/enterprise/mapper/EnterpriseCustomerMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/enterprise/mapper/EnterpriseMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/enterprise/mapper/EnterpriseStaffInviteLinkMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/enterprise/model/dto/EnterpriseCustomerDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/enterprise/model/dto/EnterpriseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/enterprise/model/dto/ReceptionEnterpriseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/enterprise/model/entity/Enterprise.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/enterprise/model/entity/EnterpriseCustomer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/enterprise/model/entity/EnterpriseStaffInviteLink.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/enterprise/model/vo/EnterpriseCustomerVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/enterprise/model/vo/EnterpriseVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/enterprise/service/IEnterpriseCustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/enterprise/service/IEnterpriseService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/enterprise/service/IEnterpriseStaffInviteLinkService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/enterprise/service/impl/EnterpriseCustomerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/enterprise/service/impl/EnterpriseServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/enterprise/service/impl/EnterpriseStaffInviteLinkServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/enterprise/web/AdminEnterpriseController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/invoice/api/InvoiceController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/invoice/api/InvoiceManageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/invoice/mapper/InvoiceManageMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/invoice/mapper/InvoiceMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/invoice/mapper/InvoiceOrderMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/invoice/model/dto/InvoiceDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/invoice/model/entity/Invoice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/invoice/model/entity/InvoiceManage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/invoice/model/entity/InvoiceOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/invoice/model/enums/InvoiceStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/invoice/model/form/InvoiceAuditForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/invoice/model/form/InvoiceQueryForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/invoice/model/vo/InvoiceAddressVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/invoice/model/vo/InvoiceMsgVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/invoice/model/vo/InvoiceVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/invoice/service/IInvoiceManageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/invoice/service/IInvoiceOrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/invoice/service/IInvoiceService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/invoice/service/impl/InvoiceManageServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/invoice/service/impl/InvoiceOrderServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/invoice/service/impl/InvoiceServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/invoice/web/AdminInvoiceController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/member/api/MemberController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/member/api/MemberExpandController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/member/mapper/CustomerMemberRightsHistoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/member/mapper/CustomerMemberRightsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/member/mapper/MemberTemplateHistoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/member/mapper/MemberTemplateMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/member/model/dto/MemberTemplateDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/member/model/dto/MemberTemplateSearchDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/member/model/emum/MemberRightsEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/member/model/emum/MemberTypeEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/member/model/entity/CustomerMemberRights.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/member/model/entity/CustomerMemberRightsHistory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/member/model/entity/MemberTemplate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/member/model/entity/MemberTemplateHistory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/member/model/vo/CustomerMemberVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/member/model/vo/MemberSubTemplateVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/member/model/vo/MemberTemplateParentVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/member/model/vo/MemberTemplateVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/member/model/vo/UpgradeMemberVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/member/service/ICustomerMemberRightsHistoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/member/service/ICustomerMemberRightsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/member/service/IMemberTemplateHistoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/member/service/IMemberTemplateService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/member/service/impl/CustomerMemberRightsHistoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/member/service/impl/CustomerMemberRightsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/member/service/impl/MemberTemplateHistoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/member/service/impl/MemberTemplateServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/member/web/AdminMemberController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/message/api/MessageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/message/mapper/EventMessageTemplateMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/message/mapper/GeneralMessageTemplateMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/message/mapper/MessageMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/message/model/entity/EventMessageTemplate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/message/model/entity/GeneralMessageTemplate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/message/model/entity/Message.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/message/model/enums/EventMsgTemplateTypeEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/message/model/search/GeneralMessageTemplateSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/message/model/vo/GeneralMessageTemplateVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/message/service/IEventMessageTemplateService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/message/service/IGeneralMessageTemplateService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/message/service/IMessageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/message/service/impl/EventMessageTemplateServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/message/service/impl/GeneralMessageTemplateServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/message/service/impl/MessageServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/message/web/EventMessageTemplateController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/message/web/GeneralMessageTemplateController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/api/OrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/api/OrderShippingController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/api/ShoppingController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/mapper/LogisticsInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/mapper/OrderItemMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/mapper/OrderMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/mapper/OrderRefundMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/mapper/OrderStatusHistoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/mapper/ShoppingMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/model/dto/AddMemberOrderDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/model/dto/AddOrderDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/model/dto/AddOrderQuicklyDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/model/dto/AddOrderRefundDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/model/dto/AddPreShoppingDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/model/dto/AddShoppingDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/model/dto/EnterpriseMemberOrderDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/model/dto/MemberUsableCouponDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/model/dto/OrderExpressDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/model/dto/OrderExpressQueryDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/model/dto/OrderQueryDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/model/dto/OrderRefundAuditDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/model/dto/OrderRefundQueryDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/model/dto/OrderSearchDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/model/dto/ShoppingListDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/model/dto/UpdateOrderAddressDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/model/entity/LogisticsInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/model/entity/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/model/entity/OrderItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/model/entity/OrderRefund.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/model/entity/OrderStatusHistory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/model/entity/Shopping.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/model/enums/OrderItemStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/model/enums/OrderRefundStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/model/enums/OrderStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/model/vo/GenerateShoppingVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/model/vo/LogisticsInfoVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/model/vo/MemberOrderVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/model/vo/OrderItemBoxVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/model/vo/OrderItemVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/model/vo/OrderRefundVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/model/vo/OrderVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/model/vo/ShoppingVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/service/ILogisticsInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/service/IOrderItemService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/service/IOrderRefundService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/service/IOrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/service/IOrderStatusHistoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/service/IShoppingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/service/impl/LogisticsInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/service/impl/OrderItemServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/service/impl/OrderRefundServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/service/impl/OrderServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/service/impl/OrderStatusHistoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/service/impl/ShoppingServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/web/AdminOrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/order/web/AdminOrderRefundController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/pay/api/NotifyPayController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/pay/api/PayController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/pay/mapper/PayStatusMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/pay/mapper/TradeNotifyMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/pay/mapper/TradeOrderMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/pay/model/dto/NotifyPayDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/pay/model/dto/NotifyRefundDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/pay/model/dto/PayDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/pay/model/entity/PayStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/pay/model/entity/TradeNotify.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/pay/model/entity/TradeOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/pay/model/enums/PayType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/pay/model/form/request/WxOrderQueryRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/pay/model/form/request/WxPayUnifiedOrderRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/pay/model/form/request/WxRefundQueryRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/pay/model/form/request/WxRefundRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/pay/model/form/response/WxOrderQueryResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/pay/model/form/response/WxPayAsyncResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/pay/model/form/response/WxPaySyncResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/pay/model/form/response/WxRefundAsyncResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/pay/model/form/response/WxRefundQueryResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/pay/model/form/response/WxRefundResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/pay/model/vo/PayOrderInfoVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/pay/service/IAliPayService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/pay/service/IPayStatusService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/pay/service/ITradeNotifyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/pay/service/ITradeOrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/pay/service/OfflinePay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/pay/service/OnlinePay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/pay/service/Pay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/pay/service/impl/PayStatusServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/pay/service/impl/TradeNotifyServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/pay/service/impl/TradeOrderServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/pay/service/processor/AbstractOfflinePay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/pay/service/processor/AbstractOnlinePay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/pay/service/processor/AbstractPay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/pay/service/processor/AlipayProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/pay/service/processor/NoChargePayProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/pay/service/processor/OfflinePayProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/pay/service/processor/WXPayProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/pay/web/AdminPayController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/api/BoxShareController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/api/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/api/ProductExpandController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/api/ProductGroupController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/mapper/BoxMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/mapper/BoxPhotoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/mapper/BoxShareMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/mapper/MiddleProductGroupMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/mapper/PrintOptionMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/mapper/ProductGroupMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/mapper/ProductHistoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/mapper/ProductHistoryPhotoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/mapper/ProductMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/mapper/TagMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/model/dto/AddBoxDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/model/dto/AddBoxShareDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/model/dto/AddProductDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/model/dto/BoxQueryDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/model/dto/CloneBoxDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/model/dto/ProductGroupTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/model/dto/ProductQueryDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/model/dto/ProductSearchDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/model/dto/ProofPriceDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/model/dto/UpdateProductDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/model/dto/UpdateProductGroupDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/model/entity/Box.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/model/entity/BoxPhoto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/model/entity/BoxShare.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/model/entity/MiddleProductGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/model/entity/PrintOption.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/model/entity/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/model/entity/ProductGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/model/entity/ProductHistory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/model/entity/ProductHistoryPhoto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/model/entity/Tag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/model/vo/AdminProductVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/model/vo/BoxVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/model/vo/PreflightCheckVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/model/vo/ProductGroupVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/model/vo/ProductVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/model/vo/SearchProductVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/service/IBoxPhotoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/service/IBoxService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/service/IBoxShareService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/service/IMiddleProductGroupService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/service/IPrintOptionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/service/IProductGroupService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/service/IProductHistoryPhotoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/service/IProductHistoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/service/IProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/service/ITagService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/service/impl/BoxPhotoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/service/impl/BoxServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/service/impl/BoxShareServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/service/impl/MiddleProductGroupServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/service/impl/PrintOptionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/service/impl/ProductGroupServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/service/impl/ProductHistoryPhotoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/service/impl/ProductHistoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/service/impl/ProductServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/service/impl/TagServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/web/AdminBoxController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/web/AdminProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/product/web/AdminProductGroupController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/api/AdminLoginContoller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/api/AdminSettingsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/api/SysAdminPermissionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/api/SysUserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/api/SysUserRoleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/api/TelephoneAreaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/mapper/SysAdminRoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/mapper/SysAdminRolePermissionsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/mapper/SysAdminUserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/mapper/SysAdminUserRoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/mapper/SysLoginRecordMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/mapper/SysOperateLogMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/mapper/SysSettingsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/mapper/SysTaxRateMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/mapper/TelephoneAreaMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/model/dto/LoginAdminUserDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/model/dto/SysAdminRoleDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/model/dto/SysAdminUserDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/model/dto/SysSettingDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/model/entity/SysAdminPermissions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/model/entity/SysAdminRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/model/entity/SysAdminRolePermissions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/model/entity/SysAdminUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/model/entity/SysAdminUserRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/model/entity/SysLoginRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/model/entity/SysOperateLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/model/entity/SysSettings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/model/entity/SysTaxRate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/model/entity/TelephoneArea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/model/enums/FiledTypeEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/model/enums/MenuType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/model/enums/PermissionsEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/model/enums/RoleScope.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/model/enums/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/model/form/CompanyMsgSettingsForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/model/form/OperateLogQueryForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/model/form/TransactionSettingsForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/model/form/WebsiteSettingsForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/model/vo/AdminLoginUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/model/vo/CompanyMsgSettingsVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/model/vo/MetaVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/model/vo/RouterVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/model/vo/SysAdminRoleVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/model/vo/SysAdminUserVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/model/vo/SysSettingVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/model/vo/TransactionSettingsVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/model/vo/TreeSelectVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/model/vo/WebsiteSettingsVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/service/IAdminLoginService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/service/ISysAdminRoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/service/ISysAdminUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/service/ISysLoginRecordService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/service/ISysOperateLogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/service/ISysPermissionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/service/ISysSettingsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/service/ISysTaxRateService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/service/TelephoneAreaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/service/impl/AdminLoginServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/service/impl/SysAdminRoleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/service/impl/SysAdminUserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/service/impl/SysLoginRecordServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/service/impl/SysOperateLogServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/service/impl/SysPermissionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/service/impl/SysSettingsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/service/impl/SysTaxRateServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/service/impl/TelephoneAreaServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/web/LoginRecordController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/web/OperateLogController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/web/SettingsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/system/web/TaxRateController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/user/api/CustomerAddressController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/user/api/CustomerApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/user/api/CustomerExpandController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/user/mapper/CustomerAddressMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/user/mapper/CustomerGroupMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/user/mapper/CustomerMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/user/mapper/MiddleCustomerGroupMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/user/model/dto/CustomerSearchDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/user/model/entity/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/user/model/entity/CustomerAddress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/user/model/entity/CustomerGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/user/model/entity/MiddleCustomerGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/user/model/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/user/model/form/CheckResetCodeForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/user/model/form/CustomerAddressForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/user/model/form/CustomerEmailRegisterForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/user/model/form/CustomerForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/user/model/form/CustomerGroupForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/user/model/form/CustomerInfoEditForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/user/model/form/CustomerLoginForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/user/model/form/CustomerPhoneBindForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/user/model/form/CustomerPhoneLoginForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/user/model/form/CustomerPhoneRegisterForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/user/model/form/CustomerResetPasswordForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/user/model/group/CustomerAddGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/user/model/group/CustomerGroupAddGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/user/model/vo/CustomerAddressVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/user/model/vo/CustomerGroupVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/user/model/vo/CustomerVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/user/model/vo/LoginBodyVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/user/model/vo/LoginUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/user/service/ICustomerAddressService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/user/service/ICustomerGroupService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/user/service/ICustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/user/service/impl/CustomerAddressServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/user/service/impl/CustomerGroupServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/user/service/impl/CustomerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/user/web/AdminCustomerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/boxuni/modules/user/web/AdminCustomerGroupController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/hibernate/cfg/PropertyContainer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/SysPermissions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/cert/apiclient_cert.p12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/i18n/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/i18n/messages_en_US.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/i18n/messages_zh_CN.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/logback-spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/address/DistrictMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/content/BannerManageMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/content/ProblemContentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/content/StaticContentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/content/StaticPictureMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/coupon/CouponErrorRecordMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/coupon/CouponMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/coupon/CouponTemplateMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/coupon/RuleConditionMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/coupon/RuleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/enterprise/EnterpriseCustomerMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/enterprise/EnterpriseMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/enterprise/EnterpriseStaffInviteLinkMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/invoice/InvoiceManageMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/invoice/InvoiceMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/invoice/InvoiceOrderMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/member/CustomerMemberRightsHistoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/member/CustomerMemberRightsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/member/MemberTemplateHistoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/member/MemberTemplateMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/message/EventMessageTemplateMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/message/GeneralMessageTemplateMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/message/MessageMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/order/LogisticsInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/order/OrderItemMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/order/OrderMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/order/OrderRefundMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/order/OrderStatusHistoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/order/ShoppingMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/pay/PayStatusMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/pay/TradeNotifyMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/pay/TradeOrderMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/product/BoxMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/product/BoxPhotoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/product/BoxShareMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/product/MiddleProductGroupMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/product/PrintOptionMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/product/ProductGroupMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/product/ProductHistoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/product/ProductHistoryPhotoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/product/ProductMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/product/TagMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/system/SysAdminRoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/system/SysAdminRolePermissionsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/system/SysAdminUserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/system/SysAdminUserRoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/system/SysLoginRecordMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/system/SysOperateLogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/system/SysSettingsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/system/SysTaxRateMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/user/CustomerAddressMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/user/CustomerGroupMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/user/CustomerMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/user/MiddleCustomerGroupMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/address/api/DistrictControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/address/service/impl/DistrictServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/center/api/MicroserviceControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/content/api/AdminBannerManageControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/content/api/ProblemContentControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/content/api/StaticContentControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/content/api/StaticPictureControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/content/service/impl/BannerManageServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/content/service/impl/ProblemContentServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/content/service/impl/StaticContentServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/content/service/impl/StaticPictureServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/content/web/BannerManageControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/content/web/ContentControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/content/web/FaqControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/coupon/api/CouponControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/coupon/service/impl/CouponServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/coupon/service/impl/CouponTemplateServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/coupon/service/impl/RuleServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/coupon/web/AdminCouponControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/coupon/web/AdminCouponTemplateControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/coupon/web/AdminRuleControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/enterprise/api/EnterpriseControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/enterprise/mapper/EnterpriseMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/enterprise/service/impl/EnterpriseServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/enterprise/web/AdminEnterpriseControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/member/mapper/MemberTemplateMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/order/api/OrderControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/order/api/ShoppingControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/order/mapper/OrderItemMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/order/mapper/OrderMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/order/mapper/OrderRefundMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/order/mapper/ShoppingMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/order/service/impl/OrderRefundServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/order/service/impl/OrderServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/order/service/impl/ShoppingServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/order/web/AdminOrderControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/pay/api/PayControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/pay/service/processor/AlipayProcessorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/pay/service/processor/NoChargePayProcessorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/pay/service/processor/OfflinePayProcessorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/pay/service/processor/WXPayProcessorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/pay/web/AdminPayControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/product/api/BoxShareControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/product/api/ProductControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/product/api/ProductExpandControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/product/api/ProductGroupControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/product/service/impl/BoxServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/product/service/impl/ProductGroupServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/product/service/impl/ProductServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/product/web/AdminBoxControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/product/web/AdminProductControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/product/web/AdminProductGroupControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/system/api/AdminLoginContollerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/system/api/AdminSettingsControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/system/api/SysAdminPermissionControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/system/api/SysUserControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/system/api/SysUserRoleControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/system/api/TelephoneAreaControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/system/mapper/SysAdminRolePermissionsMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/system/mapper/SysAdminUserMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/system/mapper/SysAdminUserRoleMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/system/mapper/SysSettingsMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/system/service/impl/AdminLoginServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/system/service/impl/SysAdminRoleServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/system/service/impl/SysAdminUserServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/system/service/impl/SysPermissionServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/system/service/impl/SysSettingsServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/system/service/impl/SysTaxRateServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/system/service/impl/TelephoneAreaServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/system/web/OperateLogControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/user/api/CustomerAddressControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/user/api/CustomerApiControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/user/api/CustomerExpandControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/user/mapper/CustomerGroupMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/user/mapper/CustomerMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/user/mapper/MiddleCustomerGroupMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/user/service/impl/CustomerAddressServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/user/service/impl/CustomerGroupServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/user/service/impl/CustomerServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/user/web/AdminCustomerControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/boxuni/modules/user/web/AdminCustomerGroupControllerTest.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/rabbitmq/target/" />
+    <ignored path="$PROJECT_DIR$/spring-rabbitmq-product/target/" />
+    <ignored path="$PROJECT_DIR$/spring-rabbitmq-customer/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-rabbitmq-product/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-rabbitmq-customer/target/" />
+    <ignored path="$PROJECT_DIR$/spring-rabbitmq-product-advanced/target/" />
+    <ignored path="$PROJECT_DIR$/spring-rabbitmq-cusomer-advanced/target/" />
+    <ignored path="$PROJECT_DIR$/producer-springboot/target/" />
+    <ignored path="$PROJECT_DIR$/consumer-springboot/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-rabbitmq-product-advanced/src/test/java/ProducerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="89" selection-start-line="89" selection-end-line="89" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-rabbitmq-product-advanced/src/main/resources/spring-rabbitmq-producer.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3515">
+              <caret line="185" column="47" selection-start-line="185" selection-start-column="33" selection-end-line="185" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-rabbitmq-product-advanced/src/main/resources/rabbitmq.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-rabbitmq-cusomer-advanced/src/main/java/com/zhongjie/TestMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-rabbitmq-cusomer-advanced/src/main/java/com/zhongjie/listener/OrderAckListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-rabbitmq-cusomer-advanced/src/main/java/com/zhongjie/listener/AckListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-rabbitmq-cusomer-advanced/src/main/java/com/zhongjie/listener/PrefetchAckListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-rabbitmq-cusomer-advanced/src/main/resources/rabbitmq.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>zhongjie</find>
+      <find>huizhou</find>
+      <find>handleReturn</find>
+      <find>connectionFactory</find>
+      <find>onMessage</find>
+      <find>springQueueListener</find>
+      <find>fanoutListener1</find>
+      <find>spring_fanout_queue_1</find>
+      <find>spring_fanout_exchange</find>
+      <find>springboot_queue</find>
+      <find>publisher</find>
+      <find>spring_direct_exchange_confrim</find>
+      <find>declare</find>
+      <find>spring_queue</find>
+      <find>spring_direct_queue_confrim</find>
+      <find>expiration</find>
+      <find>expir</find>
+      <find>Message</find>
+      <find>PrefetchAckListener</find>
+      <find>spring_topic_queue_star</find>
+      <find>test_queue_dlx</find>
+      <find>exchange_dlx</find>
+      <find>baiqi</find>
+      <find>test_exchange_dlx</find>
+      <find>dlx</find>
+      <find>order_exchange_dlx</find>
+      <find>order_queue</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="INTERACTIVE" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/zhongjie/workqueues/Sms.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/zhongjie/workqueues/Order.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/zhongjie/workqueues/SmsSend3.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/zhongjie/workqueues/SmsSend.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/zhongjie/workqueues/SmsSend2.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/zhongjie/pubsub/Baidu.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/zhongjie/pubsub/huohu.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/zhongjie/pubsub/weatherBureau.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/zhongjie/routing/Baidu.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/zhongjie/routing/huohu.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/zhongjie/routing/weatherBureau.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/zhongjie/util/RabbitmqConstant.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/zhongjie/topic/Baidu.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/zhongjie/topic/huohu.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/zhongjie/topic/weatherBureau.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/zhongjie/util/RabbitmqConnectUtil.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/zhongjie/hellowork/Producer.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/zhongjie/confirm/huohu.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/zhongjie/confirm/Baidu.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/zhongjie/confirm/weatherBureau.java" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq-product/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq-product/src/test/java/ProducerTest.java" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq-product/src/main/resources/spring-rabbitmq-producer.xml" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq-product/src/main/resources/rabbitmq.properties" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq-customer/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq-customer/src/main/java/com/zhongjie/listener/FanoutListener.java" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq-customer/src/main/java/com/zhongjie/listener/SpringQueueListener.java" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq-customer/src/main/java/com/zhongjie/Test.java" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq-customer/src/main/resources/spring-rabbitmq-consumer.xml" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq-product/src/test/java/com/zhongjie/SpringbootRabbitmqProductApplicationTests.java" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq-product/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq-product/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq-product/src/main/java/com/zhongjie/config/RabbitmqConfig.java" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq-product/src/test/java/com/zhongjie/ProductTest.java" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq-customer/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq-customer/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq-customer/src/test/java/com/zhongjie/SpringbootRabbitmqCustomerApplicationTests.java" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq-product-advanced/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq-customer/src/main/java/com/zhongjie/listener/RabbitmqListener.java" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq-customer/src/main/java/com/zhongjie/TestMain.java" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq-cusomer-advanced/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq-cusomer-advanced/src/main/java/com/zhongjie/AckListener.java" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq-cusomer-advanced/src/main/java/com/zhongjie/listener/AckListener.java" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq-cusomer-advanced/src/main/java/com/zhongjie/listener/PrefetchAckListener.java" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq-product-advanced/src/main/resources/spring-rabbitmq-producer.xml" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq-cusomer-advanced/src/main/java/com/zhongjie/listener/OrderAckListener.java" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq-cusomer-advanced/src/main/resources/spring-rabbitmq-consumer.xml" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq-product-advanced/src/test/java/ProducerTest.java" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq-product-advanced/src/main/resources/rabbitmq.properties" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq-cusomer-advanced/src/main/resources/rabbitmq.properties" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/software/maven/apache-maven-3.2.2" />
+        <option name="userSettingsFile" value="C:\software\maven\apache-maven-3.2.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="77" />
+    <option name="y" value="58" />
+    <option name="width" value="1440" />
+    <option name="height" value="880" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="rabbitmq_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rabbitmq_code" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1622990578937" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/consumer-springboot/pom.xml" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3719862" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zhongjie.listener" />
+      <recent name="com.zhongjie" />
+      <recent name="" />
+      <recent name="com.zhongjie.pubsub" />
+      <recent name="com.zhongjie.workqueues" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\jie\java\rabbitmq_code\spring-rabbitmq-cusomer-advanced\src\main\resources" />
+      <recent name="D:\jie\java\rabbitmq_code\spring-rabbitmq-product-advanced\src\main\resources" />
+      <recent name="D:\jie\java\rabbitmq_code\spring-rabbitmq-customer\src\main\resources" />
+      <recent name="D:\jie\java\rabbitmq_code\spring-rabbitmq-customer\src\main\java\com\zhongjie" />
+      <recent name="D:\jie\java\rabbitmq_code\spring-rabbitmq-customer\src\main\java\com\zhongjie\listener" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.TestMain">
+    <configuration name="TestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhongjie.TestMain" />
+      <module name="spring-rabbitmq-cusomer-advanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhongjie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerTest.testDlx" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-rabbitmq-product-advanced" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProducerTest" />
+      <option name="METHOD_NAME" value="testDlx" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerTest.testDlxOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-rabbitmq-product-advanced" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProducerTest" />
+      <option name="METHOD_NAME" value="testDlxOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerTest.testPrefetch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-rabbitmq-product-advanced" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProducerTest" />
+      <option name="METHOD_NAME" value="testPrefetch" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerTest.testTTl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-rabbitmq-product-advanced" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProducerTest" />
+      <option name="METHOD_NAME" value="testTTl" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="consumer-springboot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.baiqi.consumerspringboot.ConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootRabbitmqCustomerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-rabbitmq-customer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhongjie.SpringbootRabbitmqCustomerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootRabbitmqProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-rabbitmq-product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhongjie.SpringbootRabbitmqProductApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestMain" />
+        <item itemvalue="JUnit.ProducerTest.testDlxOrder" />
+        <item itemvalue="JUnit.ProducerTest.testDlx" />
+        <item itemvalue="JUnit.ProducerTest.testTTl" />
+        <item itemvalue="JUnit.ProducerTest.testPrefetch" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13c30de8-c7a1-461b-bb6c-e35aedfa3bc8" name="Default Changelist" comment="" />
+      <created>1617606228087</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617606228087</updated>
+      <workItem from="1617606233569" duration="6187000" />
+      <workItem from="1617716257679" duration="1576000" />
+      <workItem from="1617799322444" duration="3281000" />
+      <workItem from="1617807422549" duration="60000" />
+      <workItem from="1618407488554" duration="2192000" />
+      <workItem from="1618731760563" duration="7048000" />
+      <workItem from="1618840240587" duration="2111000" />
+      <workItem from="1618842372782" duration="5347000" />
+      <workItem from="1619251048875" duration="11063000" />
+      <workItem from="1619448180077" duration="6663000" />
+      <workItem from="1619612290648" duration="195000" />
+      <workItem from="1619612490710" duration="161000" />
+      <workItem from="1619612654708" duration="257000" />
+      <workItem from="1620654746353" duration="6135000" />
+      <workItem from="1622214601717" duration="1754000" />
+      <workItem from="1622370907148" duration="2795000" />
+      <workItem from="1622646128896" duration="1561000" />
+      <workItem from="1622892881561" duration="10128000" />
+      <workItem from="1622989293970" duration="1222000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ProducerTest_testDlxOrder - 2021.06.05 at 23h 43m 17s.xml">
+      <configuration name="ProducerTest.testDlxOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProducerTest_testDlxOrder - 2021.06.06 at 00h 27m 01s.xml">
+      <configuration name="ProducerTest.testDlxOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProducerTest_testDlxOrder - 2021.06.06 at 00h 32m 43s.xml">
+      <configuration name="ProducerTest.testDlxOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProducerTest_testDlxOrder - 2021.06.06 at 00h 58m 00s.xml">
+      <configuration name="ProducerTest.testDlxOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProducerTest_testDlxOrder - 2021.06.06 at 02h 20m 21s.xml">
+      <configuration name="ProducerTest.testDlxOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProducerTest_testDlxOrder - 2021.06.06 at 02h 22m 47s.xml">
+      <configuration name="ProducerTest.testDlxOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProducerTest_testDlxOrder - 2021.06.06 at 02h 34m 53s.xml">
+      <configuration name="ProducerTest.testDlxOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProducerTest_testDlxOrder - 2021.06.06 at 02h 47m 03s.xml">
+      <configuration name="ProducerTest.testDlxOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProducerTest_testDlxOrder - 2021.06.06 at 02h 47m 50s.xml">
+      <configuration name="ProducerTest.testDlxOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProducerTest_testDlxOrder - 2021.06.06 at 02h 58m 31s.xml">
+      <configuration name="ProducerTest.testDlxOrder" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="69736000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49716714" visible="true" weight="0.34785524" />
+      <window_info id="Structure" order="1" sideWeight="0.5021216" side_tool="true" weight="0.33378017" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5141643" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.46175638" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3385269" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.31161472" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3286119" />
+      <window_info anchor="bottom" id="Spring" order="13" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.19906166" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Word Book" order="5" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49716714" visible="true" weight="0.33847186" />
+      <window_info id="Structure" order="1" sideWeight="0.5021216" side_tool="true" weight="0.33378017" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45184135" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32152975" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.31161472" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3286119" />
+      <window_info anchor="bottom" id="Spring" order="13" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.19906166" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Word Book" order="5" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-rabbitmq-cusomer-advanced/src/main/java/com/zhongjie/listener/PrefetchAckListener.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/zhongjie/confirm/huohu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/software/mavenRepository/com/rabbitmq/amqp-client/5.8.0/amqp-client-5.8.0-sources.jar!/com/rabbitmq/client/Channel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10849">
+          <caret line="594" column="54" selection-start-line="594" selection-start-column="54" selection-end-line="594" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/zhongjie/routing/weatherBureau.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/zhongjie/pubsub/weatherBureau.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="26" column="61" lean-forward="true" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/zhongjie/hellowork/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="35" column="27" lean-forward="true" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/zhongjie/pubsub/huohu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/zhongjie/routing/huohu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="18" selection-start-line="18" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/zhongjie/util/RabbitmqConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/zhongjie/util/RabbitmqConnectUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="16" column="50" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/学习资料/图灵架构/Rabbitmq/11-2资料代码/spring-rabbitmq-producers-basic/src/test/java/com/baiqi/ProducerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/software/mavenRepository/org/springframework/amqp/spring-amqp/2.1.8.RELEASE/spring-amqp-2.1.8.RELEASE.jar!/org/springframework/amqp/core/MessageListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq-customer/src/main/resources/rabbitmq.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq-customer/src/main/resources/spring-rabbitmq-consumer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="30" column="81" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="81" />
+          <folding>
+            <element signature="e#881#899#0" expanded="true" />
+            <element signature="e#936#954#0" expanded="true" />
+            <element signature="e#995#1017#0" expanded="true" />
+            <element signature="e#1125#1151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq-customer/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq-customer/src/test/java/com/zhongjie/SpringbootRabbitmqCustomerApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq-customer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq-product/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/software/jdk/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="62" column="16" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq-product/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="35" column="19" selection-start-line="11" selection-start-column="2" selection-end-line="35" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq-product-advanced/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq-product/src/main/resources/rabbitmq.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq-product/src/main/resources/spring-rabbitmq-producer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="44" column="27" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq-product/src/test/java/ProducerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq-product/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq-product/src/test/java/com/zhongjie/ProductTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="83" selection-start-line="19" selection-start-column="83" selection-end-line="19" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq-customer/src/main/java/com/zhongjie/SpringbootRabbitmqCustomerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq-product/src/main/java/com/zhongjie/config/RabbitmqConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq-customer/src/main/java/com/zhongjie/listener/RabbitmqListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/software/mavenRepository/com/rabbitmq/amqp-client/5.8.0/amqp-client-5.8.0-sources.jar!/com/rabbitmq/client/Envelope.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+          <folding>
+            <element signature="e#1747#1748#0" expanded="true" />
+            <element signature="e#1782#1783#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq-customer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="21" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq-customer/src/main/java/com/zhongjie/TestMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq-customer/src/main/java/com/zhongjie/listener/SpringQueueListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq-customer/src/main/java/com/zhongjie/listener/FanoutListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq-cusomer-advanced/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/software/mavenRepository/com/rabbitmq/amqp-client/5.4.3/amqp-client-5.4.3.jar!/com/rabbitmq/client/Channel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="137" column="56" selection-start-line="137" selection-start-column="52" selection-end-line="137" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq-product/src/main/java/com/zhongjie/SpringbootRabbitmqProductApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/software/mavenRepository/org/springframework/amqp/spring-amqp/2.1.8.RELEASE/spring-amqp-2.1.8.RELEASE.jar!/org/springframework/amqp/core/Message.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/software/mavenRepository/org/springframework/amqp/spring-rabbit/2.1.8.RELEASE/spring-rabbit-2.1.8.RELEASE.jar!/org/springframework/amqp/rabbit/core/RabbitTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7524">
+          <caret line="543" column="16" selection-start-line="543" selection-start-column="16" selection-end-line="543" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/software/mavenRepository/org/springframework/amqp/spring-rabbit/2.1.8.RELEASE/spring-rabbit-2.1.8.RELEASE.jar!/org/springframework/amqp/rabbit/listener/adapter/MessageListenerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/zhongjie/hellowork/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/software/mavenRepository/org/springframework/amqp/spring-rabbit/2.1.8.RELEASE/spring-rabbit-2.1.8.RELEASE.jar!/org/springframework/amqp/rabbit/config/spring-rabbit-2.1.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="727" column="37" selection-start-line="727" selection-start-column="29" selection-end-line="727" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq-cusomer-advanced/src/main/resources/spring-rabbitmq-consumer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="54" column="80" lean-forward="true" selection-start-line="54" selection-start-column="80" selection-end-line="54" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq-product-advanced/src/main/resources/spring-rabbitmq-producer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3515">
+          <caret line="185" column="47" selection-start-line="185" selection-start-column="33" selection-end-line="185" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq-product-advanced/src/main/resources/rabbitmq.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq-cusomer-advanced/src/main/java/com/zhongjie/listener/OrderAckListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq-cusomer-advanced/src/main/java/com/zhongjie/listener/AckListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq-cusomer-advanced/src/main/java/com/zhongjie/listener/PrefetchAckListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq-cusomer-advanced/src/main/resources/rabbitmq.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq-cusomer-advanced/src/main/java/com/zhongjie/TestMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq-product-advanced/src/test/java/ProducerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3719862" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring (springboot-rabbitmq-customer)|Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3719862" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3719862" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3719862" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring|spring-rabbitmq-cusomer-advanced</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3719862" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.google.code.gson:gson:2.8.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3719862" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

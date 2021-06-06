@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/consumer-springboot/consumer-springboot.iml" filepath="$PROJECT_DIR$/consumer-springboot/consumer-springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/producer-springboot/producer-springboot.iml" filepath="$PROJECT_DIR$/producer-springboot/producer-springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbitmq/rabbitmq.iml" filepath="$PROJECT_DIR$/rabbitmq/rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbitmq_code.iml" filepath="$PROJECT_DIR$/rabbitmq_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-rabbitmq-cusomer-advanced/spring-rabbitmq-cusomer-advanced.iml" filepath="$PROJECT_DIR$/spring-rabbitmq-cusomer-advanced/spring-rabbitmq-cusomer-advanced.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-rabbitmq-customer/spring-rabbitmq-customer.iml" filepath="$PROJECT_DIR$/spring-rabbitmq-customer/spring-rabbitmq-customer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-rabbitmq-product/spring-rabbitmq-product.iml" filepath="$PROJECT_DIR$/spring-rabbitmq-product/spring-rabbitmq-product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-rabbitmq-product-advanced/spring-rabbitmq-product-advanced.iml" filepath="$PROJECT_DIR$/spring-rabbitmq-product-advanced/spring-rabbitmq-product-advanced.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-rabbitmq-customer/springboot-rabbitmq-customer.iml" filepath="$PROJECT_DIR$/springboot-rabbitmq-customer/springboot-rabbitmq-customer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-rabbitmq-product/springboot-rabbitmq-product.iml" filepath="$PROJECT_DIR$/springboot-rabbitmq-product/springboot-rabbitmq-product.iml" />
+    </modules>
+  </component>
+</project>
